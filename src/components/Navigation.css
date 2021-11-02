@@ -1,0 +1,23 @@
+.nav_container {
+    display: block;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.nav_container a {
+    text-decoration: none;
+    padding: 7px 10px;
+    background: white;
+    justify-content: center;
+    color: black;
+}
+
+.nav_container .nav__home {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.nav_container .nav__about {
+    border-radius: 0px 5px 5px 0px;
+}
